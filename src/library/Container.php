@@ -86,7 +86,7 @@ class Container extends \Pimple\Container {
 					require_once ABSPATH . '/wp-admin/includes/plugin.php';
 				}
 
-				$data = get_plugin_data( ABSPATH . '/wp-content/plugins/' . $c['PLUGIN_BASENAME'] );
+				$data = get_plugin_data(WP_CONTENT_DIR . '/plugins/' . $c['PLUGIN_BASENAME']);
 
 				return $data['Name'];
 			}
