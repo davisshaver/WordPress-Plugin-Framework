@@ -1,5 +1,5 @@
 {
-  "name": "alledia/wordpress-plugin-framework",
+  "name": "davishaver/wordpress-plugin-framework",
   "type": "library",
   "description": "Alledia framework for creating WordPress plugins.",
   "keywords": ["wordpress", "plugin", "framework"],
